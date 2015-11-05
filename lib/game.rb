@@ -6,8 +6,8 @@ class Game
     @deck = Deck.new
     @hand = Hand.new(@deck)
     @hand.fill_hand(5)
-    p @hand
-    p @deck.deck.size
+    # p @hand
+    # p @deck.deck.size
   end
 end
 
